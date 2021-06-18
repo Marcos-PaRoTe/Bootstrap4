@@ -1,6 +1,7 @@
 /* Layout */
 html, body, #home {
     height: 100%;
+    overflow-x: hidden;
 }
 
 
@@ -79,6 +80,30 @@ nav.navbar-trans {
 
 #servicos h2, h3 {
     color: #7c25f8;
+}
+
+#recursos h3 {
+    color: #9bf0e1;
+}
+
+#recursos h2 {
+    color: white;
+}
+
+#recursos p {
+    color: white;
+}
+
+#recursos {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+.rotacionar {
+    transform: rotate(30deg);
+    -webkit-transform: rotate(30deg);
+    -ms-transform: rotate(30deg);
+    padding-left: 80px;
 }
 
 .albuns {
